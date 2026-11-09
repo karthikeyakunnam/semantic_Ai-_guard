@@ -1,0 +1,7 @@
+query_id,topic,template,scenario,query_passage,candidate_id,candidate_passage,relevant
+astro-1,planetary,definition-A,Exact copying,"A lunar eclipse occurs when Earth passes between the Sun and Moon, casting a shadow across the lunar surface.",astro-1-candidate,"A lunar eclipse occurs when Earth passes between the Sun and Moon, casting a shadow across the lunar surface.",1
+garden-1,horticulture,cause-A,Paraphrase,Native flowers provide pollinators food and safe shelter throughout the growing season.,garden-1-candidate,Local blossoms give pollinating insects dependable food and protected places during the season.,1
+secure-1,cybersecurity,sequence-A,Partial copy,Use a unique password for every account and enable a second verification step. Review account activity monthly.,secure-1-candidate,Use a unique password for every account and enable a second verification step. Update recovery details too.,1
+coffee-1,beverages,cause-B,Common topic independent,Coffee grind size changes extraction speed during brewing.,coffee-1-candidate,Coffee beans develop aroma as roasting heat changes their chemistry.,0
+music-1,music,definition-B,Unrelated,A reed vibrates against a saxophone mouthpiece to produce sound.,music-1-candidate,Clay hardens in a kiln after a potter shapes a bowl.,0
+astro-2,planetary,definition-A,Common prompt,Explain how a lunar eclipse occurs and identify the objects involved.,astro-2-candidate,Describe the stages of a lunar eclipse and name the bodies involved.,0

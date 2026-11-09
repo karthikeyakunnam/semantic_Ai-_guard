@@ -1,0 +1,275 @@
+{
+  "validation": {
+    "tp": 3,
+    "fp": 1,
+    "tn": 2,
+    "fn": 0,
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1": 0.8571428571428571,
+    "specificity": 0.6666666666666666,
+    "false_positive_rate": 0.3333333333333333,
+    "scores": [
+      1.000000023841858,
+      0.28757520542913306,
+      0.7151591941299085,
+      0.17806372284889221,
+      0.10466211470053158,
+      0.4118771672248841
+    ]
+  },
+  "test": {
+    "faiss_baseline": {
+      "tp": 3,
+      "fp": 1,
+      "tn": 2,
+      "fn": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "specificity": 0.6666666666666666,
+      "false_positive_rate": 0.3333333333333333
+    },
+    "faiss_cross_encoder": {
+      "tp": 3,
+      "fp": 1,
+      "tn": 2,
+      "fn": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "specificity": 0.6666666666666666,
+      "false_positive_rate": 0.3333333333333333
+    },
+    "hybrid": {
+      "tp": 2,
+      "fp": 1,
+      "tn": 2,
+      "fn": 1,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "specificity": 0.6666666666666666,
+      "false_positive_rate": 0.3333333333333333
+    }
+  },
+  "per_scenario": {
+    "Common prompt": {
+      "faiss_baseline": {
+        "tp": 0,
+        "fp": 1,
+        "tn": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.0,
+        "false_positive_rate": 1.0
+      },
+      "faiss_cross_encoder": {
+        "tp": 0,
+        "fp": 1,
+        "tn": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.0,
+        "false_positive_rate": 1.0
+      },
+      "hybrid": {
+        "tp": 0,
+        "fp": 1,
+        "tn": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.0,
+        "false_positive_rate": 1.0
+      }
+    },
+    "Common topic independent": {
+      "faiss_baseline": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "faiss_cross_encoder": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "hybrid": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      }
+    },
+    "Exact copying": {
+      "faiss_baseline": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      },
+      "faiss_cross_encoder": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      },
+      "hybrid": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      }
+    },
+    "Paraphrase": {
+      "faiss_baseline": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      },
+      "faiss_cross_encoder": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      },
+      "hybrid": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      }
+    },
+    "Partial copy": {
+      "faiss_baseline": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      },
+      "faiss_cross_encoder": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      },
+      "hybrid": {
+        "tp": 1,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 0,
+        "false_positive_rate": 0
+      }
+    },
+    "Unrelated": {
+      "faiss_baseline": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "faiss_cross_encoder": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "hybrid": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      }
+    }
+  },
+  "timing": {
+    "embedding_load_seconds": 1.6995099159830716,
+    "cross_encoder_load_seconds": 2.4761128329846542,
+    "validation_cross_encoder_inference_seconds": 0.02439791601500474,
+    "test_cross_encoder_inference_seconds": 0.013287250010762364,
+    "benchmark_peak_rss_delta_mb": 29.171875
+  }
+}

@@ -1,0 +1,7 @@
+query_id,topic,template,scenario,query_passage,candidate_id,candidate_passage,relevant
+tide-1,oceanography,process-X,Exact copying,Ocean tides change as the Moon's gravity pulls water into bulges on opposite sides of Earth.,tide-1-candidate,Ocean tides change as the Moon's gravity pulls water into bulges on opposite sides of Earth.,1
+forest-1,forestry,benefit-X,Paraphrase,Tree canopies cool cities by shading streets and releasing water vapor.,forest-1-candidate,Urban areas become cooler when trees shade roads and add moisture to the air.,1
+health-1,public-health,recommendation-X,Partial copy,Regular handwashing with soap reduces the spread of many infections. Dry hands with a clean towel.,health-1-candidate,Regular handwashing with soap reduces the spread of many infections. Keep shared surfaces clean.,1
+bread-1,food-science,cause-Y,Common topic independent,Yeast produces gas that makes bread dough expand during fermentation.,bread-1-candidate,Longer baking creates a darker crust through browning reactions.,0
+painting-1,visual-arts,definition-Y,Unrelated,A watercolor pigment disperses in water and settles into paper fibers.,painting-1-candidate,A tide gauge records changes in sea level over time.,0
+tide-2,oceanography,process-X,Common prompt,Explain what causes ocean tides and describe the Moon's role.,tide-2-candidate,Describe how lunar gravity contributes to the daily rise and fall of ocean water.,0

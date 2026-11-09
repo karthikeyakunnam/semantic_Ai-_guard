@@ -1,0 +1,52 @@
+# Python bytecode and test/lint caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local credentials and environment overrides; keep the example template
+.env
+.env.*
+!.env.example
+.envrc
+.secrets/
+credentials.json
+*.pem
+*.key
+
+# Uploaded documents, local databases, and generated vector indexes
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+faiss_index/*
+!faiss_index/.gitkeep
+
+# Model weights and local model caches
+.cache/
+**/.cache/
+models/
+model_cache/
+
+# Frontend dependencies/build output
+frontend/node_modules/
+frontend/dist/
+
+# Temporary/editor/OS files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Personal file present in the workspace; unrelated to this project
+/Attendance_October_2026_Unnam_Karthikeya_A0680.xlsx

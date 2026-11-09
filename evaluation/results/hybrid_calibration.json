@@ -1,0 +1,21 @@
+{
+  "weights": {
+    "semantic": 0.2,
+    "lexical": 0.4,
+    "phrase": 0.4
+  },
+  "threshold": 0.2,
+  "validation_metrics": {
+    "tp": 3,
+    "fp": 1,
+    "tn": 2,
+    "fn": 0,
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1": 0.8571428571428571,
+    "specificity": 0.6666666666666666
+  },
+  "validation_sha256": "83b967d13f361b173d2243b5206c5ed14f898e0d0ba80c39d80082b88d9ab5c3",
+  "calibration_source": "validation_only",
+  "frozen": true
+}
